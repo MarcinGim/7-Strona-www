@@ -11,7 +11,15 @@
     "build": "npm run build:clean && npm run build:sass && npm run build:autoprefixer",
     "build:clean": "rimraf vendor/*.css",
     "build:sass": "node-sass --output-style compact -o css sass",
-    "build:autoprefixer": "autoprefixer-cli css/style.css"
+    "build:autoprefixer": "autoprefixer-cli css/style.css",
+
+
+  "init-project": "npm install && npm run init:dirs && npm run init:files && npm run init:gitignore",
+  "init:dirs": "mkdirp sass css vendor images js",
+  "init:files": "touch README.md index.html sass/style.scss js/script.js",
+  "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore"
+
+
   },
   "repository": {
     "type": "git",
