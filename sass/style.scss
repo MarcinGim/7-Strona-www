@@ -201,7 +201,7 @@ body {
     }
 }
 
-// Portfolio section
+// sekcja 2 - Portfolio section
 
 .portoflio-background {
     background-color: #f7f7f7;
@@ -265,33 +265,48 @@ body {
         color: #777777;
         font-size: 18px;
     }
+    img {
+        height: 150px;
+        width: 150px;
+        margin-left: 5px;
+    }
 }
 
 .aboutus-box {
-    background-color: pink;
-    height: 200px;
     text-align: right;
+    height: 200px;
+    margin-top: 20px;
+    padding-right: 10px;
 }
 
 .aboutus-box2 {
     height: 200px;
+    margin-top: 20px;
 }
 
 .aboutus-box3 {
-    background-color: pink;
+    background-color: white;
     height: 200px;
+    margin-top: 20px;
 }
 
 .aboutus-box {
     h1, h2 {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 700px;
+        text-align: right;
+    }
+    h2 {
+        margin-top: -5px;
     }
     p {
-        font-family: 'Cardo', serif;
-        font-style: italic;
+        margin-top: -5px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 300;
         color: #777777;
-        font-size: 18px;
+        font-size: 14px;
+        text-align: right;
+        font-style: normal;
     }
 }
 
