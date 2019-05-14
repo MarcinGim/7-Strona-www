@@ -237,7 +237,9 @@ body {
   border-color: fed136;
   border-image: initial;
   border-radius: 50% 50% 50% 50%;
-  padding: 6%;
+  height: 80px;
+  width: 80px;
+  padding-top: 20px;
 }
 
 .services-box {
@@ -340,6 +342,7 @@ body {
   background-color: white;
   height: 200px;
   margin-top: 20px;
+  text-align: left;
 }
 
 .aboutus-box h1, .aboutus-box h2 {
@@ -360,6 +363,132 @@ body {
   font-size: 14px;
   text-align: right;
   font-style: normal;
+}
+
+.aboutus-box3 h1, .aboutus-box3 h2 {
+  font-size: 16px;
+  font-weight: 700px;
+  text-align: left;
+}
+
+.aboutus-box3 h2 {
+  margin-top: -5px;
+}
+
+.aboutus-box3 p {
+  margin-top: -5px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #777777;
+  font-size: 14px;
+  text-align: left;
+  font-style: normal;
+}
+
+.amazing-team-bg {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 600px;
+  margin-top: 1100px;
+}
+
+.ourteam-section {
+  padding-top: 40px;
+}
+
+.ourteam-section h1, .ourteam-section p {
+  text-align: center;
+}
+
+.ourteam-section p {
+  font-family: 'Cardo', serif;
+  font-style: italic;
+  color: #777777;
+  font-size: 18px;
+}
+
+.ourteam-box {
+  margin-top: 30px;
+}
+
+.ourteam-box img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50% 50% 50% 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+
+.ourteam-box h1, .ourteam-box h2 {
+  font-size: 16px;
+  font-weight: 700px;
+  text-align: center;
+}
+
+.ourteam-box h2 {
+  margin-top: -5px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+.social-media {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-media .fab {
+  font-size: 20px;
+  text-align: center;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #black;
+  border-image: initial;
+  border-radius: 50% 50% 50% 50%;
+  height: 50px;
+  width: 50px;
+  margin: 0 10px;
+  padding-top: 12px;
+}
+
+.logo-section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 40px 0;
+}
+
+.logo-section img {
+  margin: 0 25px;
+}
+
+.contact-section {
+  display: inline-block;
+  width: 100%;
+  height: 500px;
+  color: white;
+  background-image: url("../../images/background-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+}
+
+.contact-section h1, .contact-section p {
+  text-align: center;
+}
+
+.contact-section p {
+  font-family: 'Cardo', serif;
+  font-style: italic;
+  color: #777777;
+  font-size: 18px;
+}
+
+.contact-box1 {
+  color: blue;
+  background-color: white;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

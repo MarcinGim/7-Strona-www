@@ -177,7 +177,9 @@ body {
     border-color: fed136;
     border-image: initial;
     border-radius: 50% 50% 50% 50%; 
-    padding: 6%; 
+    height: 80px;
+    width: 80px;
+    padding-top: 20px;
 }
 
 .services-box {
@@ -249,7 +251,7 @@ body {
     }
 }
 
-// About us section
+// sekcja 3 - About us 
 
 .aboutus-section {
     padding: 40px 0;
@@ -288,6 +290,7 @@ body {
     background-color: white;
     height: 200px;
     margin-top: 20px;
+    text-align: left;
 }
 
 .aboutus-box {
@@ -310,4 +313,140 @@ body {
     }
 }
 
+.aboutus-box3 {
+    h1, h2 {
+        font-size: 16px;
+        font-weight: 700px;
+        text-align: left;
+    }
+    h2 {
+        margin-top: -5px;
+    }
+    p {
+        margin-top: -5px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 300;
+        color: #777777;
+        font-size: 14px;
+        text-align: left;
+        font-style: normal;
+    }
+}
 
+// sekcja 4 - Our team
+
+.amazing-team-bg {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 600px;
+    margin-top: 1100px;
+}
+
+.ourteam-section {
+    padding-top: 40px;
+}
+
+.ourteam-section{
+    h1, p {
+        text-align: center;
+    }
+    p {
+        font-family: 'Cardo', serif;
+        font-style: italic;
+        color: #777777;
+        font-size: 18px;
+    }
+}
+
+.ourteam-box {
+    margin-top: 30px;
+}
+
+.ourteam-box {
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50% 50% 50% 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+    }
+    h1, h2 {
+        font-size: 16px;
+        font-weight: 700px;
+        text-align: center;
+    }
+    h2 {
+        margin-top: -5px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 300;
+    }
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media {
+    .fab {
+        font-size: 20px;
+        text-align: center;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #black;
+        border-image: initial;
+        border-radius: 50% 50% 50% 50%; 
+        height: 50px;
+        width: 50px;
+        margin: 0 10px;
+        padding-top: 12px;
+    }
+}
+
+// sekcja 4 - logo section
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 40px 0;
+}
+
+.logo-section {
+    img {
+        margin: 0 25px;
+    }
+}
+
+// sekcja 5 - contact section
+
+.contact-section {
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    color: white;
+    background-image: url("../../images/background-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+.contact-section {
+    h1, p {
+        text-align: center;
+    }
+    p {
+        font-family: 'Cardo', serif;
+        font-style: italic;
+        color: #777777;
+        font-size: 18px;
+    }
+}
+
+.contact-box1 {
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+}
