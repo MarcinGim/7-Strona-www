@@ -213,7 +213,7 @@ a:link {
 .portoflio-background {
     background-color: #f7f7f7;
     width: 100%;
-    height: 100%;
+    height: 1000px;
 }
 
 .portfolio-section {
@@ -460,6 +460,7 @@ a:link {
     justify-content: flex-end;
     flex-flow: row wrap;
     padding: 20px 0 0 0;
+    margin-top: -20px;
 }
 
 .contact-box1 {
@@ -467,16 +468,14 @@ a:link {
     background-color: white;
     border-radius: 3px; 
     width: 60%; 
-    margin: 0 10px 10px 0;
-}
-
-.contact-box1 {
-    p {
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        text-align: left;
-        padding: 0 0 0 10px;
-    }
+    margin: 0 10px 21px 0;
+    height: 50px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    text-align: left;
+    color: #bbbbbb;
+    padding: 5px 0 0 10px;
 }
 
 .contact-box2 {
@@ -484,17 +483,15 @@ a:link {
     background-color: white;
     border-radius: 3px; 
     width: 60%; 
-    margin: 0 10px 10px 0;
-}
-
-.contact-box2 {
-    p {
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        text-align: left;
-        padding: 0 0 0 10px;
-    }    
-}  
+    margin: 0 10px 21px 0;
+    height: 50px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    text-align: left;
+    color: #bbbbbb;
+    padding: 5px 0 0 10px;
+} 
 
 .contact-box3 {
     color: blue;
@@ -502,15 +499,13 @@ a:link {
     border-radius: 3px; 
     width: 60%; 
     margin: 0 10px 0 0;
-}
-
-.contact-box3 {
-    p {
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        text-align: left;
-        padding: 0 0 0 10px;
-    }
+    height: 50px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    text-align: left;
+    color: #bbbbbb;
+    padding: 5px 0 0 10px;
 }
 
 .contact-right-column {
@@ -521,21 +516,17 @@ a:link {
 }
 
 .contact-box4 {
-    color: blue;
     background-color: white;
     border-radius: 3px; 
-    width: 60%; 
+    width: 30%; 
     height: 194px;
     margin: 0 0 0 10px;
-}
-
-.contact-box4 {
-    p {
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        text-align: left;
-        padding: 0 0 0 10px;
-    }
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    text-align: left;
+    color: #bbbbbb;
+    padding: 10px 0 0 10px;
 }
 
 .contact-button {
@@ -544,27 +535,38 @@ a:link {
     align-items: center;
 }
 
+.contact-button {
+    p {
+        font-style: normal;
+        background-color: #fed136;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 18px;
+    }
+}
+
 .contact-button-style {
-    background-color: #fed136;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 18px;
     width: 200px;
     height: 50px;
     text-align: center;
     padding-top: 15px;
-    margin-top: -110px;
+    margin-top: 20px;
 }
 
 // Footer
 
 .footer {
     height: 75px;
+    margin-top: 50px;
 }
 
 .copyright-text {
-    font-size: 14px;
-    padding-top: 5px;
+    p {
+        font-size: 14px;
+        padding-top: 5px;
+        font-style: normal;
+        font-family: 'Montserrat', sans-serif;
+    }
 }
 
 .fotter-sm {
@@ -669,13 +671,18 @@ a:link {
         height: 50px;
         text-align: center;
         padding-top: 15px;
-        margin-top: -160px;
+        margin-top: 10px;
     }
 
     .portfolio-box {
         background-color: white;
         margin: 15px 0;
     }
+
+    .footer {
+        height: 75px;
+        margin-top: 20px;
+}
 
 }
 
