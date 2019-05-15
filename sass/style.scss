@@ -52,6 +52,10 @@ body {
 .col-offset-10 {margin-left: 83.33%;}
 .col-offset-11 {margin-left: 91.66%;}
 
+a:link {
+  text-decoration: none;
+}
+
 // główny banner 
 
 .top-section {
@@ -59,7 +63,7 @@ body {
     width: 100%;
     height: 700px;
     color: white;
-    background-image: url("../../images/background.png");
+    background-image: url("https://i.imgur.com/BssYmvL.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -72,7 +76,7 @@ body {
     height: 100px;
     display: flex;
     justify-content: flex-start;
-    padding: 20px 0 20px 220px
+    margin: 20px 0 20px 220px
 }
 
 .top-navbar {
@@ -145,6 +149,7 @@ body {
     height: 50px;
     text-align: center;
     padding-top: 15px;
+    color: white;
 }
 
 // sekcja 1 - services
@@ -208,7 +213,7 @@ body {
 .portoflio-background {
     background-color: #f7f7f7;
     width: 100%;
-    height: 1050px;
+    height: 100%;
 }
 
 .portfolio-section {
@@ -218,6 +223,8 @@ body {
 .portfolio-section {
     h1, p {
         text-align: center;
+        text-decoration: none;
+        color: black;
     }
     p {
         font-family: 'Cardo', serif;
@@ -387,6 +394,7 @@ body {
 .social-media {
     text-align: center;
     margin-top: 20px;
+    text-decoration: none;
 }
 
 .social-media {
@@ -402,6 +410,8 @@ body {
         width: 50px;
         margin: 0 10px;
         padding-top: 12px;
+        text-decoration: none;
+        color: black;
     }
 }
 
@@ -427,7 +437,7 @@ body {
     width: 100%;
     height: 500px;
     color: white;
-    background-image: url("../../images/background-2.png");
+    background-image: url("https://i.imgur.com/HaDDjfL.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 40px;
@@ -527,5 +537,149 @@ body {
         padding: 0 0 0 10px;
     }
 }
+
+.contact-button {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-button-style {
+    background-color: #fed136;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: -110px;
+}
+
+// Footer
+
+.footer {
+    height: 75px;
+}
+
+.copyright-text {
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.fotter-sm {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.fotter-sm {
+    .fab {
+        color: white;
+        border-radius: 50% 50% 50% 50%; 
+        height: 30px;
+        width: 30px;
+        background-color: black;
+        padding-top: 7px;
+    }
+}
+
+// RWD
+
+@media (max-width: 767px){
+
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    .top-navbar {
+        margin: -10px 10px 0 30px;
+    }
+
+    .slogan2 {
+        font-size: 40px;
+    }
+
+    .portoflio-background {
+        background-color: #f7f7f7;
+        width: 100%;
+        height: 100%;
+        margin-top: 300px;
+}
+
+    .logo-section {
+        display: block;
+        margin: 130px 0 0 50px;
+    }
+
+}
+
+@media (max-width: 900px){
+
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+
+    .last-box {
+        display: none;
+    }
+
+    .aboutus-box2 {
+        display: flex;    
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-section {
+        img {
+            margin: 10px 25px;
+        }
+    }
+
+    .amazing-team-bg {
+        background-color: #f7f7f7;
+        width: 100%;
+        height: 1300px;
+        margin-top: 1100px;
+    }
+
+    .contact-button-style {
+        background-color: #fed136;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 18px;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        padding-top: 15px;
+        margin-top: -160px;
+    }
+
+    .portfolio-box {
+        background-color: white;
+        margin: 15px 0;
+    }
+
+}
+
+
+
 
 
